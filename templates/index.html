@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Human</h1>
+        <h2>Decision Tree Algorithm</h2>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="txtfile" id="file" accept=".txt">
+            <input type="submit" value="Predict">
+        </form>
+        <br>
+        % Decision tree %
+        <p>{{prediction}}</p>
+    </div>
+    <div class="random">
+        <h1>Random Forest Algorithm</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="txtfile" id="file" accept=".txt">
+            <input type="submit" value="Predict">
+        </form>
+        <br>
+        % Random Forest %
+        <p>{{prediction}}</p>
+    </div>
+    <div class="xgboost">
+        <h1>Xgboost Algorithm</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="txtfile" id="file" accept=".txt">
+            <input type="submit" value="Predict">
+        </form>
+        <br>
+        % Xgboost %
+        <p>{{prediction}}</p>
+    </div>
+    <div class="naive">
+        <h1>Human's Naive Bayes</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="txtfile" id="file" accept=".txt">
+            <input type="submit" value="Predict">
+        </form>
+        <br>
+        % Naive Bayes %
+        <p>{{prediction}}</p>
+    </div>
+</body>
+</html>
